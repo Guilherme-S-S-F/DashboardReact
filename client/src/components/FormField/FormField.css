@@ -1,0 +1,17 @@
+.form-field > input {
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    outline: none;
+    border: 0px solid;
+    border-bottom: 1px solid purple;
+    text-overflow: ellipsis;
+}
+
+.form-field > input:focus {
+    border-bottom: 2px solid purple;
+}
+
+.form-field > label {
+    font-weight: bold;
+}

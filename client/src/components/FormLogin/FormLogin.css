@@ -1,0 +1,48 @@
+.form-login {
+    width: fit-content;
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.form-login .container {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.form-login .container .error-msg > p {
+    color: red;
+    display: none;
+}
+.form-login .container .error-msg.active > p {
+    display: block;
+    color: red;
+}
+
+.form-login .container .btn-enter {
+    margin-top: 20px;
+    height: 30px;
+    padding: 0px 30px;
+    background-color: purple;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid purple;
+    cursor: pointer;
+    transition: 0.7s ease;
+    transform: scale(1);
+}
+
+.form-login .container .btn-enter:hover {
+    background-color: #fff;
+    color: purple;
+    transform: scale(1.2);
+}
